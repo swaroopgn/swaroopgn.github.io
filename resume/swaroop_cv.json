@@ -1,0 +1,46 @@
+{
+    "settings": {
+        "icons" : true
+    },
+    "firstname": "Swaroop",
+    "familyname": "Narasimha",
+    "linkedin_id": "swaroopgn",
+    "github_id": "swaroopgn",
+    "bio_data": {
+        "email": "swaroopgn @ gmail.com",
+        "phone": "email for more details",
+        "website": "http://swaroop.co.in",
+        "stars": ["C/C++/Java","Distributed system","Video Streaming"],
+        "skills": {
+            "details": [
+                {
+                    "type": "Programming Languages",
+                    "items": [
+                        "C++",
+                        "Python",
+                        "Java",
+                        "C",
+                        "Go"
+                    ]
+                }
+            ]
+        },
+        "education": {
+            "show_gpa": true,
+            "schools": [
+                {
+                    "degree": "Master of Science",
+                    "major": "Embedded and control systems design",
+                    "institution": "Manipal University",
+                    "graduation_year": 2013
+                },
+                {
+                    "degree": "Bachelor of Engineering",
+                    "major": "Electronics and communication",
+                    "institution": "Siddaganga Institute of Technology, Tumkur",
+                    "graduation_year": 2007
+                }
+            ]
+        }
+    }
+}
