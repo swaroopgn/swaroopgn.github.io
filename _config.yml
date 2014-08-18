@@ -1,22 +1,38 @@
 # Dependencies
 markdown:         redcarpet
+redcarpet:
+  extensions: ["tables"]
+
 pygments:         true
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
-paginate:         1
-baseurl:          /
+title:            Swaroop Narasimha
+tagline:          'Random interests, coding and learning'
+url:              http://www.swaroop.co.in
+shorturl:         swaroop.co.in
+
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           'Swaroop Narasimha'
+  url:            http://swaroopgn.tumblr.com
+
+paginate:         1
 
 # Custom vars
 version:          1.0.0
+
 github:
-  repo:           https://github.com/poole/poole
+  repo:           github.com/swaroopgn/swaroopgn.github.io
+
+# This is the list of pages to include in the header of the website.
+pages_list:
+  About: '/about/'
+  Archive: '/archive/'
+  Feed: '/atom.xml'
+
+# Allow URL Redirects:
+#  * https://help.github.com/articles/redirects-on-github-pages
+gems:
+  - jekyll-redirect-from
