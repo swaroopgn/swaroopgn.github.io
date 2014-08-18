@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing Poole
+title: My favourite verse from Geetanjali
 ---
 ### Moment's indulgence
 
