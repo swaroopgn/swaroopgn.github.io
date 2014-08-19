@@ -1,5 +1,5 @@
 ---
-layout: sitemap
+layout: post
 title: Git tricks and notes
 ---
 ### Moving a commit from one branch to another
