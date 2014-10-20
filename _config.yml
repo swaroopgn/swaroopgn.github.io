@@ -1,12 +1,10 @@
 # Dependencies
-markdown:         redcarpet
-redcarpet:
-  extensions: ["tables"]
-
-pygments:         true
+markdown:            redcarpet
+highlighter:         pygments
 
 # Permalinks
 permalink:        pretty
+relative_permalinks: true
 
 # Setup
 title:            Swaroop Narasimha
@@ -18,18 +16,14 @@ author:
   name:           'Swaroop Narasimha'
   url:            http://swaroopgn.tumblr.com
 
-paginate:         1
+paginate:         5
+baseurl:             /
 
 # Custom vars
 version:          1.0.0
 
 github:
   repo:           github.com/swaroopgn/swaroopgn.github.io
-
-# This is the list of pages to include in the header of the website.
-pages_list:
-  About: '/about/'
-  Archive: '/archive/'
 
 # Allow URL Redirects:
 #  * https://help.github.com/articles/redirects-on-github-pages
